@@ -14,7 +14,7 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,8 +31,7 @@ printable characters (all others are shown as single dots).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -49,5 +48,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_vendorlib}/Data/*.pm
+%{perl_sitelib}/Data/*.pm
 %{_mandir}/man3/*
