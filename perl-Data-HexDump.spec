@@ -10,7 +10,8 @@ Summary(pl):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
 Version:	0.02
 Release:	2
-License:	GPL or Artistic
+# sa,e as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	467b7183d1062ab4a502b50c34e7d67f
