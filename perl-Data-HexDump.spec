@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	HexDump
+%define		pdir	Data
+%define		pnam	HexDump
 Summary:	Data::HexDump - a simple hexadecial dumper
 Summary(pl):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
