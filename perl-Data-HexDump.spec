@@ -9,7 +9,7 @@ Summary:	Data::HexDump - a simple hexadecial dumper
 Summary(pl):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
 Version:	0.02
-Release:	2
+Release:	3
 # sa,e as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
