@@ -51,6 +51,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+mv $RPM_BUILD_ROOT%{_bindir}/hexdump $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -60,3 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{perl_vendorlib}/Data/*.pm
 %{_mandir}/man3/*
+%attr(755,root,root) %dir %{_examplesdir}/%{name}-%{version}
+%attr(644,root,root) %{_examplesdir}/%{name}-%{version}/hexdump
