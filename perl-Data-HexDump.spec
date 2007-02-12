@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	HexDump
 Summary:	Data::HexDump - a simple hexadecial dumper
-Summary(pl):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
+Summary(pl.UTF-8):   Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
 Version:	0.02
 Release:	3
@@ -28,12 +28,12 @@ of data from the source in hexadecimal. The rightmost column of each
 line shows the printable characters (all others are shown as single
 dots).
 
-%description -l pl
-Data::HexDump wyrzuca szesnastkowo zawarto¶æ skalara. Wynik jest
-zwracany jako ³añcuch. Ka¿da linia wyniku sk³ada siê z offsetu w
-¼ródle w lewej kolumnie ka¿dej linii, po którym nastêpuje jedna lub
-wiêcej kolumn szesnastkowych danych ze ¼ród³a. Prawa kolumna ka¿dej
-linii pokazuje znaki drukowalne (wszystkie inne s± pokazywane jako
+%description -l pl.UTF-8
+Data::HexDump wyrzuca szesnastkowo zawartoÅ›Ä‡ skalara. Wynik jest
+zwracany jako Å‚aÅ„cuch. KaÅ¼da linia wyniku skÅ‚ada siÄ™ z offsetu w
+ÅºrÃ³dle w lewej kolumnie kaÅ¼dej linii, po ktÃ³rym nastÄ™puje jedna lub
+wiÄ™cej kolumn szesnastkowych danych ze ÅºrÃ³dÅ‚a. Prawa kolumna kaÅ¼dej
+linii pokazuje znaki drukowalne (wszystkie inne sÄ… pokazywane jako
 pojedyncze kropki).
 
 %prep
