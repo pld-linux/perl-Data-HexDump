@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	HexDump
 Summary:	Data::HexDump - a simple hexadecial dumper
-Summary(pl.UTF-8):   Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
+Summary(pl.UTF-8):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
 Version:	0.02
 Release:	3
