@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	HexDump
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::HexDump - a simple hexadecial dumper
 Summary(pl.UTF-8):	Data::HexDump - proste zrzucanie danych w formacie szesnastkowym
 Name:		perl-Data-HexDump
